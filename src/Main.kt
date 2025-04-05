@@ -11,6 +11,7 @@ fun isValidIPv4Address(address: String): Boolean {
     for (segment in segmentsList) {
 
         if(segment.isEmpty()) return false
+        //gg
 
         if(segment.length > 1 && segment[0] == '0') return false
 
